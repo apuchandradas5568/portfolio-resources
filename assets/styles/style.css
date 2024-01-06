@@ -35,7 +35,7 @@ a {
 }
 
 section{
-    width: 60vw;
+    width: 70vw;
     margin: 130px auto;
     /* background: #FFF8F3; */
 }
@@ -209,4 +209,65 @@ text-transform: capitalize;
 font-size: 16px;
 line-height: 28px; /* 175% */
 text-align: left;
+}
+
+
+
+/* resume section */
+.resume_section{}
+.resume_section .sec_title{
+    /* color: var(--Dark-01, #181818); */
+    /* text-align: center; */
+    /* font-family: Open Sans; */
+    /* font-size: 35px; */
+    /* font-style: normal; */
+    /* font-weight: 700; */
+    /* line-height: normal;/ */
+    margin: 50px 0;
+}
+.resume_section .sum_info_wrapper{
+    display: flex;
+}
+.resume_section .sum_info_wrapper > div{
+    flex: .5;
+    /* padding: 10px; */
+    margin: 5px;
+}
+.resume_section .sum_info_wrapper div h4{
+    color: #474747;
+/* font-family: Open Sans; */
+font-size: 30px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+margin-bottom: 30px;
+}
+.resume_section .sum_info_wrapper div .info_box{}
+.resume_section .sum_info_wrapper div .info_box h5{
+    font-size: 25px;
+    padding: 0.5rem 0;
+    font-size: 25px;
+font-weight: 700;
+color: #474747;
+}
+.resume_section .sum_info_wrapper div .info_box h6{
+    color: #757575;
+/* font-family: Open Sans; */
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal;/ */
+}
+.resume_section .sum_info_wrapper div .info_box p{
+    color: #757575;
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 28px;
+    padding: 1rem 0;
+}
+.resume_section .sum_info_wrapper div .info_box hr{
+    border: 1px solid #D1D1D1;
+    margin: 1rem 0;
 }
