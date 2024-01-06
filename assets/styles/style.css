@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* multiple shared Css */
+
+.color_primary {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    border: none;
+    background: #FD6E0A;
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 35px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+/* Navbar Css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
