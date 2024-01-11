@@ -90,13 +90,13 @@ nav ul li {
 
 .banner_container .banner_left h3 {
     color: #474747;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .banner_container .banner_left h1 {
     color: #181818;
-    font-size: 85px;
+    font-size: 5.3rem;
     font-weight: 700;
     margin: 20px 0;
 }
@@ -339,12 +339,19 @@ footer {
     }
     .header{
         padding: 1rem 1rem 0 1rem;
+        /* width: 100vw; */
     }
     .about_section{
         padding: 4rem;
     }
     .banner_img{
         width: 300px;
+    }
+    .banner_container .banner_left {
+        width: 70%;
+    }
+    .banner_container .banner_left h1{
+        font-size: 4rem;
     }
 }
 
@@ -360,6 +367,10 @@ nav, nav ul,
 }
 .header{
     padding: 1rem 1rem 0 1rem;
+}
+
+.banner_container .banner_left {
+    width: 100%;
 }
 
 }
